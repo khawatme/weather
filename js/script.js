@@ -62,7 +62,6 @@ async function getSearchCity(text) {
   try {
     const response = await fetch(`https://api.weatherapi.com/v1/search.json?key=95f2b8483544432a8f9213042231502&q=${text}`);
     const data = await response.json();
-    console.log(data)
     document.getElementById('cityname').innerHTML = '';
     data.forEach(city => {
       document.getElementById('cityname').innerHTML += `<option>${city.name + ', ' + city.country}</option>`;
