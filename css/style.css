@@ -7,6 +7,10 @@
   --linear-gradiant: linear-gradient(0deg, rgba(2,158,217,1) 0%, rgba(25,196,224,1) 100%);
 }
 
+::selection {
+  color: var(--btn-color);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--primary-color);

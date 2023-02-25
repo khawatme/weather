@@ -4,8 +4,8 @@
   languages
   darkmode
   news
-  searchInput -> dropdown when typing to search
-  contact
+  //searchInput -> dropdown when typing to search
+  //contact
   error handling
   change between c,f and km,mile
 */
